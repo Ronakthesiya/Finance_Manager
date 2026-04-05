@@ -1,0 +1,272 @@
+2026-04-04 22:55:27 [Information] User profile is available. Using '"C:\Users\ronak\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-04 22:55:28 [Information] Now listening on: "http://localhost:5156"
+2026-04-04 22:55:28 [Information] Application started. Press Ctrl+C to shut down.
+2026-04-04 22:55:28 [Information] Hosting environment: "Development"
+2026-04-04 22:55:28 [Information] Content root path: "E:\Honeywell Assignment\Finance_Manager"
+2026-04-04 22:55:28 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - null null
+2026-04-04 22:55:28 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 227.6774ms
+2026-04-04 22:55:28 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - null null
+2026-04-04 22:55:28 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-04 22:55:28 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - 200 13774 "application/javascript; charset=utf-8" 7.2569ms
+2026-04-04 22:55:28 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 43.3589ms
+2026-04-04 22:55:29 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/v1/swagger.json""" - null null
+2026-04-04 22:55:29 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 77.4874ms
+2026-04-04 22:56:06 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5156""""/api/auth/login""" - "application/json" 55
+2026-04-04 22:56:06 [Warning] Failed to determine the https port for redirect.
+2026-04-04 22:56:06 [Information] Executing endpoint '"Finance_Manager_API.Controllers.CLAuthController.Login (Finance_Manager_API)"'
+2026-04-04 22:56:06 [Information] Route matched with "{action = \"Login\", controller = \"CLAuth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Finance_Manager_MAL.DTO.DTOLoginRequest)" on controller "Finance_Manager_API.Controllers.CLAuthController" ("Finance_Manager_API").
+2026-04-04 22:56:06 [Information] User Login with Email: "ronak@gmail.com"
+2026-04-04 22:56:06 [Information] Executing "OkObjectResult", writing value of type '"Finance_Manager_MAL.DTO.ApiResponse`1[[Finance_Manager_MAL.DTO.DTOAuthResponse, Finance_Manager_MAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-04 22:56:06 [Information] Executed action "Finance_Manager_API.Controllers.CLAuthController.Login (Finance_Manager_API)" in 553.4473ms
+2026-04-04 22:56:06 [Information] Executed endpoint '"Finance_Manager_API.Controllers.CLAuthController.Login (Finance_Manager_API)"'
+2026-04-04 22:56:06 [Information] HTTP "POST" "/api/auth/login" responded 200 in 650.1812 ms
+2026-04-04 22:56:06 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5156""""/api/auth/login""" - 200 null "application/json; charset=utf-8" 661.885ms
+2026-04-04 22:57:20 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5156""""/api/auth/login""" - "application/json" 55
+2026-04-04 22:57:20 [Information] Executing endpoint '"Finance_Manager_API.Controllers.CLAuthController.Login (Finance_Manager_API)"'
+2026-04-04 22:57:20 [Information] Route matched with "{action = \"Login\", controller = \"CLAuth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Finance_Manager_MAL.DTO.DTOLoginRequest)" on controller "Finance_Manager_API.Controllers.CLAuthController" ("Finance_Manager_API").
+2026-04-04 22:57:20 [Information] User Login with Email: "ronak@gmail.com"
+2026-04-04 22:57:20 [Information] Executing "OkObjectResult", writing value of type '"Finance_Manager_MAL.DTO.ApiResponse`1[[Finance_Manager_MAL.DTO.DTOAuthResponse, Finance_Manager_MAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-04 22:57:20 [Information] Executed action "Finance_Manager_API.Controllers.CLAuthController.Login (Finance_Manager_API)" in 251.7874ms
+2026-04-04 22:57:20 [Information] Executed endpoint '"Finance_Manager_API.Controllers.CLAuthController.Login (Finance_Manager_API)"'
+2026-04-04 22:57:20 [Information] HTTP "POST" "/api/auth/login" responded 200 in 262.5260 ms
+2026-04-04 22:57:20 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5156""""/api/auth/login""" - 200 null "application/json; charset=utf-8" 267.1613ms
+2026-04-04 22:57:58 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/categories""" - null null
+2026-04-04 22:57:58 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2026-04-04 22:57:58 [Information] AuthenticationScheme: "Bearer" was challenged.
+2026-04-04 22:57:58 [Information] HTTP "GET" "/api/categories" responded 401 in 13.4281 ms
+2026-04-04 22:57:58 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/categories""" - 401 0 null 17.7285ms
+2026-04-04 22:58:06 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/roles""" - null null
+2026-04-04 22:58:06 [Information] Executing endpoint '"Finance_Manager_API.Controllers.CLRoleController.GetAll (Finance_Manager_API)"'
+2026-04-04 22:58:06 [Information] Route matched with "{action = \"GetAll\", controller = \"CLRole\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Finance_Manager_API.Controllers.CLRoleController" ("Finance_Manager_API").
+2026-04-04 22:58:06 [Information] Executing "OkObjectResult", writing value of type '"Finance_Manager_MAL.DTO.ApiResponse`1[[System.Collections.Generic.List`1[[Finance_Manager_MAL.DTO.DTORole, Finance_Manager_MAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2026-04-04 22:58:06 [Information] Executed action "Finance_Manager_API.Controllers.CLRoleController.GetAll (Finance_Manager_API)" in 28.9096ms
+2026-04-04 22:58:06 [Information] Executed endpoint '"Finance_Manager_API.Controllers.CLRoleController.GetAll (Finance_Manager_API)"'
+2026-04-04 22:58:06 [Information] HTTP "GET" "/api/roles" responded 200 in 35.9277 ms
+2026-04-04 22:58:06 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/roles""" - 200 null "application/json; charset=utf-8" 40.645ms
+2026-04-04 22:59:11 [Information] User profile is available. Using '"C:\Users\ronak\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-04 22:59:11 [Information] Now listening on: "http://localhost:5156"
+2026-04-04 22:59:11 [Information] Application started. Press Ctrl+C to shut down.
+2026-04-04 22:59:11 [Information] Hosting environment: "Development"
+2026-04-04 22:59:11 [Information] Content root path: "E:\Honeywell Assignment\Finance_Manager"
+2026-04-04 22:59:12 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - null null
+2026-04-04 22:59:12 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 240.4456ms
+2026-04-04 22:59:12 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - null null
+2026-04-04 22:59:12 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-04 22:59:12 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - 200 13774 "application/javascript; charset=utf-8" 7.6536ms
+2026-04-04 22:59:12 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 41.5585ms
+2026-04-04 22:59:12 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/v1/swagger.json""" - null null
+2026-04-04 22:59:12 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 80.0649ms
+2026-04-04 22:59:17 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/permissions""" - null null
+2026-04-04 22:59:17 [Warning] Failed to determine the https port for redirect.
+2026-04-04 22:59:17 [Information] Executing endpoint '"Finance_Manager_API.Controllers.CLPermissionController.GetAll (Finance_Manager_API)"'
+2026-04-04 22:59:17 [Information] Route matched with "{action = \"GetAll\", controller = \"CLPermission\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Finance_Manager_API.Controllers.CLPermissionController" ("Finance_Manager_API").
+2026-04-04 22:59:17 [Information] Executing "OkObjectResult", writing value of type '"Finance_Manager_MAL.DTO.ApiResponse`1[[System.Collections.Generic.List`1[[Finance_Manager_MAL.DTO.DTOPermission, Finance_Manager_MAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2026-04-04 22:59:17 [Information] Executed action "Finance_Manager_API.Controllers.CLPermissionController.GetAll (Finance_Manager_API)" in 141.6994ms
+2026-04-04 22:59:17 [Information] Executed endpoint '"Finance_Manager_API.Controllers.CLPermissionController.GetAll (Finance_Manager_API)"'
+2026-04-04 22:59:17 [Information] HTTP "GET" "/api/permissions" responded 200 in 233.6643 ms
+2026-04-04 22:59:17 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/permissions""" - 200 null "application/json; charset=utf-8" 243.0916ms
+2026-04-04 23:00:23 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - null null
+2026-04-04 23:00:23 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 10.7999ms
+2026-04-04 23:00:23 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-04 23:00:23 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - null null
+2026-04-04 23:00:23 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - 200 13774 "application/javascript; charset=utf-8" 1.6534ms
+2026-04-04 23:00:23 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 26.2159ms
+2026-04-04 23:00:23 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/v1/swagger.json""" - null null
+2026-04-04 23:00:23 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 9.6792ms
+2026-04-04 23:00:44 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/roles""" - null null
+2026-04-04 23:00:44 [Information] Executing endpoint '"Finance_Manager_API.Controllers.CLRoleController.GetAll (Finance_Manager_API)"'
+2026-04-04 23:00:44 [Information] Route matched with "{action = \"GetAll\", controller = \"CLRole\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Finance_Manager_API.Controllers.CLRoleController" ("Finance_Manager_API").
+2026-04-04 23:00:44 [Information] Executed action "Finance_Manager_API.Controllers.CLRoleController.GetAll (Finance_Manager_API)" in 47.102ms
+2026-04-04 23:00:44 [Information] Executed endpoint '"Finance_Manager_API.Controllers.CLRoleController.GetAll (Finance_Manager_API)"'
+2026-04-04 23:00:44 [Error] Unhandled Exception Occurred
+System.DivideByZeroException: Attempted to divide by zero.
+   at Finance_Manager_API.Controllers.CLRoleController.GetAll()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Finance_Manager_Core.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in E:\Honeywell Assignment\Finance_Manager_Core\Middleware\ExceptionMiddleware.cs:line 27
+2026-04-04 23:00:44 [Error] HTTP "GET" "/api/roles" responded 500 in 78.0604 ms
+2026-04-04 23:00:44 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/roles""" - 500 null "application/json" 82.7817ms
+2026-04-04 23:00:48 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/roles""" - null null
+2026-04-04 23:00:48 [Information] Executing endpoint '"Finance_Manager_API.Controllers.CLRoleController.GetAll (Finance_Manager_API)"'
+2026-04-04 23:00:48 [Information] Route matched with "{action = \"GetAll\", controller = \"CLRole\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Finance_Manager_API.Controllers.CLRoleController" ("Finance_Manager_API").
+2026-04-04 23:00:48 [Information] Executed action "Finance_Manager_API.Controllers.CLRoleController.GetAll (Finance_Manager_API)" in 20.4966ms
+2026-04-04 23:00:48 [Information] Executed endpoint '"Finance_Manager_API.Controllers.CLRoleController.GetAll (Finance_Manager_API)"'
+2026-04-04 23:00:48 [Error] Unhandled Exception Occurred
+System.DivideByZeroException: Attempted to divide by zero.
+   at Finance_Manager_API.Controllers.CLRoleController.GetAll()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Finance_Manager_Core.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in E:\Honeywell Assignment\Finance_Manager_Core\Middleware\ExceptionMiddleware.cs:line 27
+2026-04-04 23:00:48 [Error] HTTP "GET" "/api/roles" responded 500 in 45.5442 ms
+2026-04-04 23:00:48 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/roles""" - 500 null "application/json" 50.4582ms
+2026-04-04 23:03:19 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - null null
+2026-04-04 23:03:19 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 14.9716ms
+2026-04-04 23:03:19 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - null null
+2026-04-04 23:03:19 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-04 23:03:19 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - 200 13774 "application/javascript; charset=utf-8" 5.9579ms
+2026-04-04 23:03:19 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 16.8709ms
+2026-04-04 23:03:19 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/v1/swagger.json""" - null null
+2026-04-04 23:03:19 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 8.8429ms
+2026-04-04 23:04:43 [Information] User profile is available. Using '"C:\Users\ronak\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-04 23:04:44 [Information] Now listening on: "http://localhost:5156"
+2026-04-04 23:04:44 [Information] Application started. Press Ctrl+C to shut down.
+2026-04-04 23:04:44 [Information] Hosting environment: "Development"
+2026-04-04 23:04:44 [Information] Content root path: "E:\Honeywell Assignment\Finance_Manager"
+2026-04-04 23:04:44 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - null null
+2026-04-04 23:04:44 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 204.4276ms
+2026-04-04 23:04:44 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - null null
+2026-04-04 23:04:44 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-04 23:04:44 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - 200 13774 "application/javascript; charset=utf-8" 8.9583ms
+2026-04-04 23:04:44 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 42.7145ms
+2026-04-04 23:04:44 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/v1/swagger.json""" - null null
+2026-04-04 23:04:44 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 82.2509ms
+2026-04-04 23:04:49 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/permissions""" - null null
+2026-04-04 23:04:49 [Warning] Failed to determine the https port for redirect.
+2026-04-04 23:04:49 [Information] Executing endpoint '"Finance_Manager_API.Controllers.CLPermissionController.GetAll (Finance_Manager_API)"'
+2026-04-04 23:04:49 [Information] Route matched with "{action = \"GetAll\", controller = \"CLPermission\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Finance_Manager_API.Controllers.CLPermissionController" ("Finance_Manager_API").
+2026-04-04 23:04:49 [Information] Executing "OkObjectResult", writing value of type '"Finance_Manager_MAL.DTO.ApiResponse`1[[System.Collections.Generic.List`1[[Finance_Manager_MAL.DTO.DTOPermission, Finance_Manager_MAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2026-04-04 23:04:49 [Information] Executed action "Finance_Manager_API.Controllers.CLPermissionController.GetAll (Finance_Manager_API)" in 139.5491ms
+2026-04-04 23:04:49 [Information] Executed endpoint '"Finance_Manager_API.Controllers.CLPermissionController.GetAll (Finance_Manager_API)"'
+2026-04-04 23:04:49 [Information] HTTP "GET" "/api/permissions" responded 200 in 230.2171 ms
+2026-04-04 23:04:49 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/permissions""" - 200 null "application/json; charset=utf-8" 241.6449ms
+2026-04-04 23:26:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - null null
+2026-04-04 23:26:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 20.6434ms
+2026-04-04 23:26:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-04 23:26:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - null null
+2026-04-04 23:26:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - 200 13774 "application/javascript; charset=utf-8" 2.7534ms
+2026-04-04 23:26:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 16.3748ms
+2026-04-04 23:26:15 [Information] User profile is available. Using '"C:\Users\ronak\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-04 23:26:15 [Information] Now listening on: "http://localhost:5156"
+2026-04-04 23:26:15 [Information] Application started. Press Ctrl+C to shut down.
+2026-04-04 23:26:15 [Information] Hosting environment: "Development"
+2026-04-04 23:26:15 [Information] Content root path: "E:\Honeywell Assignment\Finance_Manager"
+2026-04-04 23:26:16 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - null null
+2026-04-04 23:26:16 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 216.883ms
+2026-04-04 23:26:16 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - null null
+2026-04-04 23:26:16 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-04 23:26:16 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - 200 13774 "application/javascript; charset=utf-8" 9.2507ms
+2026-04-04 23:26:16 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 43.1714ms
+2026-04-04 23:26:17 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/v1/swagger.json""" - null null
+2026-04-04 23:26:17 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 100.2482ms
+2026-04-04 23:26:22 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/dashboard/summary""" - null null
+2026-04-04 23:26:22 [Warning] Failed to determine the https port for redirect.
+2026-04-04 23:26:22 [Information] Executing endpoint '"Finance_Manager_API.Controllers.CLDashboardController.GetSummary (Finance_Manager_API)"'
+2026-04-04 23:26:22 [Information] Route matched with "{action = \"GetSummary\", controller = \"CLDashboard\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary()" on controller "Finance_Manager_API.Controllers.CLDashboardController" ("Finance_Manager_API").
+2026-04-04 23:26:22 [Information] Executing "OkObjectResult", writing value of type '"Finance_Manager_MAL.DTO.ApiResponse`1[[Finance_Manager_MAL.DTO.DTODashboardSummary, Finance_Manager_MAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-04 23:26:22 [Information] Executed action "Finance_Manager_API.Controllers.CLDashboardController.GetSummary (Finance_Manager_API)" in 129.2446ms
+2026-04-04 23:26:22 [Information] Executed endpoint '"Finance_Manager_API.Controllers.CLDashboardController.GetSummary (Finance_Manager_API)"'
+2026-04-04 23:26:22 [Information] HTTP "GET" "/api/dashboard/summary" responded 200 in 226.4108 ms
+2026-04-04 23:26:22 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/dashboard/summary""" - 200 null "application/json; charset=utf-8" 237.1958ms
+2026-04-04 23:37:47 [Information] User profile is available. Using '"C:\Users\ronak\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-04 23:37:47 [Information] Now listening on: "http://localhost:5156"
+2026-04-04 23:37:47 [Information] Application started. Press Ctrl+C to shut down.
+2026-04-04 23:37:47 [Information] Hosting environment: "Development"
+2026-04-04 23:37:47 [Information] Content root path: "E:\Honeywell Assignment\Finance_Manager"
+2026-04-04 23:37:48 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - null null
+2026-04-04 23:37:48 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 215.5285ms
+2026-04-04 23:37:48 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-04 23:37:48 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - null null
+2026-04-04 23:37:48 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - 200 13774 "application/javascript; charset=utf-8" 6.4129ms
+2026-04-04 23:37:48 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 51.8166ms
+2026-04-04 23:37:48 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/v1/swagger.json""" - null null
+2026-04-04 23:37:49 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 98.255ms
+2026-04-04 23:37:53 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/permissions""" - null null
+2026-04-04 23:37:53 [Warning] Failed to determine the https port for redirect.
+2026-04-04 23:37:53 [Information] Executing endpoint '"Finance_Manager_API.Controllers.CLPermissionController.GetAll (Finance_Manager_API)"'
+2026-04-04 23:37:53 [Information] Route matched with "{action = \"GetAll\", controller = \"CLPermission\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Finance_Manager_API.Controllers.CLPermissionController" ("Finance_Manager_API").
+2026-04-04 23:37:54 [Information] Executing "OkObjectResult", writing value of type '"Finance_Manager_MAL.DTO.ApiResponse`1[[System.Collections.Generic.List`1[[Finance_Manager_MAL.DTO.DTOPermission, Finance_Manager_MAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2026-04-04 23:37:54 [Information] Executed action "Finance_Manager_API.Controllers.CLPermissionController.GetAll (Finance_Manager_API)" in 144.0176ms
+2026-04-04 23:37:54 [Information] Executed endpoint '"Finance_Manager_API.Controllers.CLPermissionController.GetAll (Finance_Manager_API)"'
+2026-04-04 23:37:54 [Information] HTTP "GET" "/api/permissions" responded 200 in 243.9576 ms
+2026-04-04 23:37:54 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/permissions""" - 200 null "application/json; charset=utf-8" 255.1149ms
+2026-04-04 23:38:39 [Information] User profile is available. Using '"C:\Users\ronak\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-04 23:38:39 [Information] Now listening on: "http://localhost:5156"
+2026-04-04 23:38:39 [Information] Application started. Press Ctrl+C to shut down.
+2026-04-04 23:38:39 [Information] Hosting environment: "Development"
+2026-04-04 23:38:39 [Information] Content root path: "E:\Honeywell Assignment\Finance_Manager"
+2026-04-04 23:38:40 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - null null
+2026-04-04 23:38:40 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 209.1027ms
+2026-04-04 23:38:40 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-04 23:38:40 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - null null
+2026-04-04 23:38:40 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - 200 13774 "application/javascript; charset=utf-8" 6.2165ms
+2026-04-04 23:38:40 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 33.1431ms
+2026-04-04 23:38:40 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/v1/swagger.json""" - null null
+2026-04-04 23:38:40 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 93.6899ms
+2026-04-04 23:38:48 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/dashboard/summary""" - null null
+2026-04-04 23:38:48 [Warning] Failed to determine the https port for redirect.
+2026-04-04 23:38:48 [Information] Executing endpoint '"Finance_Manager_API.Controllers.CLDashboardController.GetSummary (Finance_Manager_API)"'
+2026-04-04 23:38:48 [Information] Route matched with "{action = \"GetSummary\", controller = \"CLDashboard\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary()" on controller "Finance_Manager_API.Controllers.CLDashboardController" ("Finance_Manager_API").
+2026-04-04 23:38:48 [Information] Executing "OkObjectResult", writing value of type '"Finance_Manager_MAL.DTO.ApiResponse`1[[Finance_Manager_MAL.DTO.DTODashboardSummary, Finance_Manager_MAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-04 23:38:48 [Information] Executed action "Finance_Manager_API.Controllers.CLDashboardController.GetSummary (Finance_Manager_API)" in 129.2932ms
+2026-04-04 23:38:48 [Information] Executed endpoint '"Finance_Manager_API.Controllers.CLDashboardController.GetSummary (Finance_Manager_API)"'
+2026-04-04 23:38:48 [Information] HTTP "GET" "/api/dashboard/summary" responded 200 in 223.9397 ms
+2026-04-04 23:38:48 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/dashboard/summary""" - 200 null "application/json; charset=utf-8" 234.3678ms
+2026-04-04 23:39:07 [Information] User profile is available. Using '"C:\Users\ronak\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-04 23:39:07 [Information] Now listening on: "http://localhost:5156"
+2026-04-04 23:39:07 [Information] Application started. Press Ctrl+C to shut down.
+2026-04-04 23:39:07 [Information] Hosting environment: "Development"
+2026-04-04 23:39:07 [Information] Content root path: "E:\Honeywell Assignment\Finance_Manager"
+2026-04-04 23:39:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - null null
+2026-04-04 23:39:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 238.0039ms
+2026-04-04 23:39:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-04 23:39:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - null null
+2026-04-04 23:39:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - 200 13774 "application/javascript; charset=utf-8" 6.9667ms
+2026-04-04 23:39:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 38.2877ms
+2026-04-04 23:39:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/v1/swagger.json""" - null null
+2026-04-04 23:39:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 80.1844ms
+2026-04-04 23:39:14 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/permissions""" - null null
+2026-04-04 23:39:14 [Warning] Failed to determine the https port for redirect.
+2026-04-04 23:39:14 [Information] Executing endpoint '"Finance_Manager_API.Controllers.CLPermissionController.GetAll (Finance_Manager_API)"'
+2026-04-04 23:39:14 [Information] Route matched with "{action = \"GetAll\", controller = \"CLPermission\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Finance_Manager_API.Controllers.CLPermissionController" ("Finance_Manager_API").
+2026-04-04 23:39:14 [Information] Executing "OkObjectResult", writing value of type '"Finance_Manager_MAL.DTO.ApiResponse`1[[System.Collections.Generic.List`1[[Finance_Manager_MAL.DTO.DTOPermission, Finance_Manager_MAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2026-04-04 23:39:14 [Information] Executed action "Finance_Manager_API.Controllers.CLPermissionController.GetAll (Finance_Manager_API)" in 166.6951ms
+2026-04-04 23:39:14 [Information] Executed endpoint '"Finance_Manager_API.Controllers.CLPermissionController.GetAll (Finance_Manager_API)"'
+2026-04-04 23:39:14 [Information] HTTP "GET" "/api/permissions" responded 200 in 260.1353 ms
+2026-04-04 23:39:14 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/permissions""" - 200 null "application/json; charset=utf-8" 269.7752ms
+2026-04-04 23:50:31 [Information] User profile is available. Using '"C:\Users\ronak\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-04 23:50:31 [Information] Now listening on: "http://localhost:5156"
+2026-04-04 23:50:31 [Information] Application started. Press Ctrl+C to shut down.
+2026-04-04 23:50:31 [Information] Hosting environment: "Development"
+2026-04-04 23:50:31 [Information] Content root path: "E:\Honeywell Assignment\Finance_Manager"
+2026-04-04 23:50:32 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - null null
+2026-04-04 23:50:32 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 251.8572ms
+2026-04-04 23:50:32 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-04 23:50:32 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - null null
+2026-04-04 23:50:32 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_framework/aspnetcore-browser-refresh.js""" - 200 13774 "application/javascript; charset=utf-8" 5.9653ms
+2026-04-04 23:50:32 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 41.6552ms
+2026-04-04 23:50:32 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/v1/swagger.json""" - null null
+2026-04-04 23:50:32 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 78.376ms
+2026-04-04 23:50:36 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/permissions""" - null null
+2026-04-04 23:50:36 [Warning] Failed to determine the https port for redirect.
+2026-04-04 23:50:36 [Information] Executing endpoint '"Finance_Manager_API.Controllers.CLPermissionController.GetAll (Finance_Manager_API)"'
+2026-04-04 23:50:36 [Information] Route matched with "{action = \"GetAll\", controller = \"CLPermission\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "Finance_Manager_API.Controllers.CLPermissionController" ("Finance_Manager_API").
+2026-04-04 23:50:37 [Information] Executing "OkObjectResult", writing value of type '"Finance_Manager_MAL.DTO.ApiResponse`1[[System.Collections.Generic.List`1[[Finance_Manager_MAL.DTO.DTOPermission, Finance_Manager_MAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2026-04-04 23:50:37 [Information] Executed action "Finance_Manager_API.Controllers.CLPermissionController.GetAll (Finance_Manager_API)" in 140.2418ms
+2026-04-04 23:50:37 [Information] Executed endpoint '"Finance_Manager_API.Controllers.CLPermissionController.GetAll (Finance_Manager_API)"'
+2026-04-04 23:50:37 [Information] HTTP "GET" "/api/permissions" responded 200 in 233.0838 ms
+2026-04-04 23:50:37 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5156""""/api/permissions""" - 200 null "application/json; charset=utf-8" 242.9099ms
