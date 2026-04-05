@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Zorvyn Assignment\\Finance_Manager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57408739-777D-4DD1-B08E-C547C4840312}|Finance_Manager_API.csproj|e:\\zorvyn assignment\\finance_manager\\controllers\\cltransactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57408739-777D-4DD1-B08E-C547C4840312}|Finance_Manager_API.csproj|solutionrelative:controllers\\cltransactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57408739-777D-4DD1-B08E-C547C4840312}|Finance_Manager_API.csproj|e:\\zorvyn assignment\\finance_manager\\controllers\\clcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57408739-777D-4DD1-B08E-C547C4840312}|Finance_Manager_API.csproj|solutionrelative:controllers\\clcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57408739-777D-4DD1-B08E-C547C4840312}|Finance_Manager_API.csproj|e:\\zorvyn assignment\\finance_manager\\controllers\\cldashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57408739-777D-4DD1-B08E-C547C4840312}|Finance_Manager_API.csproj|solutionrelative:controllers\\cldashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57408739-777D-4DD1-B08E-C547C4840312}|Finance_Manager_API.csproj|e:\\zorvyn assignment\\finance_manager\\controllers\\clpermissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57408739-777D-4DD1-B08E-C547C4840312}|Finance_Manager_API.csproj|solutionrelative:controllers\\clpermissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57408739-777D-4DD1-B08E-C547C4840312}|Finance_Manager_API.csproj|e:\\zorvyn assignment\\finance_manager\\controllers\\clrolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57408739-777D-4DD1-B08E-C547C4840312}|Finance_Manager_API.csproj|solutionrelative:controllers\\clrolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57408739-777D-4DD1-B08E-C547C4840312}|Finance_Manager_API.csproj|e:\\zorvyn assignment\\finance_manager\\controllers\\clusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57408739-777D-4DD1-B08E-C547C4840312}|Finance_Manager_API.csproj|solutionrelative:controllers\\clusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CLUserController.cs",
+              "DocumentMoniker": "E:\\Zorvyn Assignment\\Finance_Manager\\Controllers\\CLUserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CLUserController.cs",
+              "ToolTip": "E:\\Zorvyn Assignment\\Finance_Manager\\Controllers\\CLUserController.cs",
+              "RelativeToolTip": "Controllers\\CLUserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T09:16:59.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CLTransactionController.cs",
+              "DocumentMoniker": "E:\\Zorvyn Assignment\\Finance_Manager\\Controllers\\CLTransactionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CLTransactionController.cs",
+              "ToolTip": "E:\\Zorvyn Assignment\\Finance_Manager\\Controllers\\CLTransactionController.cs",
+              "RelativeToolTip": "Controllers\\CLTransactionController.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAcwFMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T09:16:54.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CLRoleController.cs",
+              "DocumentMoniker": "E:\\Zorvyn Assignment\\Finance_Manager\\Controllers\\CLRoleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CLRoleController.cs",
+              "ToolTip": "E:\\Zorvyn Assignment\\Finance_Manager\\Controllers\\CLRoleController.cs",
+              "RelativeToolTip": "Controllers\\CLRoleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T09:16:50.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CLPermissionController.cs",
+              "DocumentMoniker": "E:\\Zorvyn Assignment\\Finance_Manager\\Controllers\\CLPermissionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CLPermissionController.cs",
+              "ToolTip": "E:\\Zorvyn Assignment\\Finance_Manager\\Controllers\\CLPermissionController.cs",
+              "RelativeToolTip": "Controllers\\CLPermissionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T09:16:44.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CLDashboardController.cs",
+              "DocumentMoniker": "E:\\Zorvyn Assignment\\Finance_Manager\\Controllers\\CLDashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CLDashboardController.cs",
+              "ToolTip": "E:\\Zorvyn Assignment\\Finance_Manager\\Controllers\\CLDashboardController.cs",
+              "RelativeToolTip": "Controllers\\CLDashboardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T09:16:40.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CLCategoryController.cs",
+              "DocumentMoniker": "E:\\Zorvyn Assignment\\Finance_Manager\\Controllers\\CLCategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CLCategoryController.cs",
+              "ToolTip": "E:\\Zorvyn Assignment\\Finance_Manager\\Controllers\\CLCategoryController.cs",
+              "RelativeToolTip": "Controllers\\CLCategoryController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAswBsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T09:16:30.138Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

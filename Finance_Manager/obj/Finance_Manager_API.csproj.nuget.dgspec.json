@@ -1,0 +1,452 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Zorvyn Assignment\\Finance_Manager\\Finance_Manager_API.csproj": {}
+  },
+  "projects": {
+    "E:\\Zorvyn Assignment\\Finance_Manager\\Finance_Manager_API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zorvyn Assignment\\Finance_Manager\\Finance_Manager_API.csproj",
+        "projectName": "Finance_Manager_API",
+        "projectPath": "E:\\Zorvyn Assignment\\Finance_Manager\\Finance_Manager_API.csproj",
+        "packagesPath": "C:\\Users\\ronak\\.nuget\\packages\\",
+        "outputPath": "E:\\Zorvyn Assignment\\Finance_Manager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ronak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Zorvyn Assignment\\Finance_Manager_BAL\\Finance_Manager_BAL.csproj": {
+                "projectPath": "E:\\Zorvyn Assignment\\Finance_Manager_BAL\\Finance_Manager_BAL.csproj"
+              },
+              "E:\\Zorvyn Assignment\\Finance_Manager_Core\\Finance_Manager_Core.csproj": {
+                "projectPath": "E:\\Zorvyn Assignment\\Finance_Manager_Core\\Finance_Manager_Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Asp.Versioning.Mvc": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Asp.Versioning.Mvc.ApiExplorer": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.5-beta1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[8.0.0-nblumhardt-02322, )"
+            },
+            "Serilog.Sinks.MySQL": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "ServiceStack.OrmLite": {
+              "target": "Package",
+              "version": "[10.0.6, )"
+            },
+            "ServiceStack.OrmLite.MySql": {
+              "target": "Package",
+              "version": "[10.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zorvyn Assignment\\Finance_Manager_BAL\\Finance_Manager_BAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zorvyn Assignment\\Finance_Manager_BAL\\Finance_Manager_BAL.csproj",
+        "projectName": "Finance_Manager_BAL",
+        "projectPath": "E:\\Zorvyn Assignment\\Finance_Manager_BAL\\Finance_Manager_BAL.csproj",
+        "packagesPath": "C:\\Users\\ronak\\.nuget\\packages\\",
+        "outputPath": "E:\\Zorvyn Assignment\\Finance_Manager_BAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ronak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Zorvyn Assignment\\Finance_Manager_Core\\Finance_Manager_Core.csproj": {
+                "projectPath": "E:\\Zorvyn Assignment\\Finance_Manager_Core\\Finance_Manager_Core.csproj"
+              },
+              "E:\\Zorvyn Assignment\\Finance_Manager_DAL\\Finance_Manager_DAL.csproj": {
+                "projectPath": "E:\\Zorvyn Assignment\\Finance_Manager_DAL\\Finance_Manager_DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.9, )"
+            },
+            "ServiceStack.OrmLite": {
+              "target": "Package",
+              "version": "[10.0.6, )"
+            },
+            "ServiceStack.OrmLite.MySql": {
+              "target": "Package",
+              "version": "[10.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zorvyn Assignment\\Finance_Manager_Core\\Finance_Manager_Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zorvyn Assignment\\Finance_Manager_Core\\Finance_Manager_Core.csproj",
+        "projectName": "Finance_Manager_Core",
+        "projectPath": "E:\\Zorvyn Assignment\\Finance_Manager_Core\\Finance_Manager_Core.csproj",
+        "packagesPath": "C:\\Users\\ronak\\.nuget\\packages\\",
+        "outputPath": "E:\\Zorvyn Assignment\\Finance_Manager_Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ronak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Zorvyn Assignment\\Finance_Manager_MAL\\Finance_Manager_MAL.csproj": {
+                "projectPath": "E:\\Zorvyn Assignment\\Finance_Manager_MAL\\Finance_Manager_MAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.9, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[11.0.0-preview.2.26159.112, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.5-beta1, )"
+            },
+            "ServiceStack.OrmLite": {
+              "target": "Package",
+              "version": "[10.0.6, )"
+            },
+            "ServiceStack.OrmLite.MySql": {
+              "target": "Package",
+              "version": "[10.0.6, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[3.0.2-preview, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zorvyn Assignment\\Finance_Manager_DAL\\Finance_Manager_DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zorvyn Assignment\\Finance_Manager_DAL\\Finance_Manager_DAL.csproj",
+        "projectName": "Finance_Manager_DAL",
+        "projectPath": "E:\\Zorvyn Assignment\\Finance_Manager_DAL\\Finance_Manager_DAL.csproj",
+        "packagesPath": "C:\\Users\\ronak\\.nuget\\packages\\",
+        "outputPath": "E:\\Zorvyn Assignment\\Finance_Manager_DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ronak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Zorvyn Assignment\\Finance_Manager_MAL\\Finance_Manager_MAL.csproj": {
+                "projectPath": "E:\\Zorvyn Assignment\\Finance_Manager_MAL\\Finance_Manager_MAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ServiceStack.OrmLite": {
+              "target": "Package",
+              "version": "[10.0.6, )"
+            },
+            "ServiceStack.OrmLite.MySql": {
+              "target": "Package",
+              "version": "[10.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zorvyn Assignment\\Finance_Manager_MAL\\Finance_Manager_MAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zorvyn Assignment\\Finance_Manager_MAL\\Finance_Manager_MAL.csproj",
+        "projectName": "Finance_Manager_MAL",
+        "projectPath": "E:\\Zorvyn Assignment\\Finance_Manager_MAL\\Finance_Manager_MAL.csproj",
+        "packagesPath": "C:\\Users\\ronak\\.nuget\\packages\\",
+        "outputPath": "E:\\Zorvyn Assignment\\Finance_Manager_MAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ronak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ServiceStack.OrmLite": {
+              "target": "Package",
+              "version": "[10.0.6, )"
+            },
+            "ServiceStack.OrmLite.MySql": {
+              "target": "Package",
+              "version": "[10.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
